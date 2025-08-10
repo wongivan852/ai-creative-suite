@@ -1,0 +1,67 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI Models (too large for git)
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cache directories
+cache/
+__pycache__/
+.cache/
+
+# Project specific ignores
+ai-models/
+stable-diffusion-webui/models/
+ComfyUI/models/
+blender-projects/renders/
+shotcut-projects/
+whisper-transcripts/
+ollama-cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Icon?
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.aiff
+
+# Backup files
+*.bak
+*.backup
+*~
